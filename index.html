@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="css/index.css"
+    />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="img/logo.jpg"
+            alt="nespresso logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>nespresso coffee machines</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+                <img src="img/delivery.jpg" alt="delivery">
+            </div>
+            <div class="desc">
+              <h2>free delivery</h2>
+              <p class="features__p">
+                On all orders over $99.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+                <img src="img/takeout.jpg" alt="pick-up">
+            </div>
+            <div class="desc">
+              <h2>boutique pick-up</h2>
+              <p class="features__p">
+                Your order will be ready at your nearest Boutique before you walk in.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+                <img src="img/info.jpg" alt="info">
+            </div>
+            <div class="desc">
+              <h2>easy assistance</h2>
+              <p class="features__p">
+                Call our Coffee Specialists at 1-855-325-5781 for assistance.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDef3k-UYMk" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="inissia">
+            <div class="level">Inissia</div>
+            <h2>$149</h2>
+            <img class="img__machine" src="img/inessia.jpg" alt="pick-up">
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Pixie Titanium</div>
+            <h2>$219</h2>
+            <img class="img__machine" src="img/pixie.jpg" alt="pick-up">
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Gran Lattissima</div>
+            <h2>$749</h2>
+            <img class="img__machine" src="img/granlattissima.jpg" alt="pick-up">
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2022, Nespresso</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
